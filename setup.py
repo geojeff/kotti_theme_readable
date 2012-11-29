@@ -3,7 +3,7 @@ import os
 from setuptools import find_packages
 from setuptools import setup
 
-version = '0.3'
+version = '0.4'
 project = 'kotti_theme_readable'
 
 here = os.path.abspath(os.path.dirname(__file__))
@@ -33,7 +33,7 @@ setup(
     ],
     entry_points={
         'fanstatic.libraries': [
-            'kotti_theme_readable = kotti_theme_readable.static:library',
+            'kotti_theme_readable = kotti_theme_readable:library',
         ],
     },
     extras_require={
