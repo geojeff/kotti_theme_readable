@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.2
+---
+
+-   Repackaging with setuptools-git installed.
+
 0.1
 ---
 
