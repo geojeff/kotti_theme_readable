@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.5
+---
+
+-   Added static/css and /img dirs so css and paths to icons work.
+
 0.4
 ---
 

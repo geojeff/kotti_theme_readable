@@ -5,7 +5,7 @@ from kotti.fanstatic import edit_needed_js
 from kotti.fanstatic import view_needed_js
 
 library = Library("kotti_theme_readable", "static")
-css = Resource(library, "bootstrap.css", minified="bootstrap.min.css")
+css = Resource(library, "css/bootstrap.css", minified="css/bootstrap.min.css")
 
 edit_needed = NeededGroup([css, edit_needed_js, ])
 view_needed = NeededGroup([css, view_needed_js, ])

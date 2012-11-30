@@ -3,7 +3,7 @@ import os
 from setuptools import find_packages
 from setuptools import setup
 
-version = '0.4'
+version = '0.5'
 project = 'kotti_theme_readable'
 
 here = os.path.abspath(os.path.dirname(__file__))
